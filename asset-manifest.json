@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/IRIS/static/css/main.3cbf170b.css",
-    "main.js": "/IRIS/static/js/main.762c7c64.js",
+    "main.js": "/IRIS/static/js/main.55889cea.js",
     "static/media/slide22.png": "/IRIS/static/media/slide22.82ff7644853e7356e86c.png",
     "static/media/sliden3.jpg": "/IRIS/static/media/sliden3.fbe2380555bb0eaec892.jpg",
     "static/media/sliden1.jpg": "/IRIS/static/media/sliden1.d5bf822d38dc3dbbbaab.jpg",
@@ -15,10 +15,10 @@
     "index.html": "/IRIS/index.html",
     "static/media/getFetch.cjs": "/IRIS/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
     "main.3cbf170b.css.map": "/IRIS/static/css/main.3cbf170b.css.map",
-    "main.762c7c64.js.map": "/IRIS/static/js/main.762c7c64.js.map"
+    "main.55889cea.js.map": "/IRIS/static/js/main.55889cea.js.map"
   },
   "entrypoints": [
     "static/css/main.3cbf170b.css",
-    "static/js/main.762c7c64.js"
+    "static/js/main.55889cea.js"
   ]
 }
