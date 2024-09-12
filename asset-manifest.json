@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/IRIS/static/css/main.3cbf170b.css",
+    "main.js": "/IRIS/static/js/main.762c7c64.js",
+    "static/media/slide22.png": "/IRIS/static/media/slide22.82ff7644853e7356e86c.png",
+    "static/media/sliden3.jpg": "/IRIS/static/media/sliden3.fbe2380555bb0eaec892.jpg",
+    "static/media/sliden1.jpg": "/IRIS/static/media/sliden1.d5bf822d38dc3dbbbaab.jpg",
+    "static/media/sliden2.jpg": "/IRIS/static/media/sliden2.569616f99cf0c63697ee.jpg",
+    "static/media/Q7010.jpg": "/IRIS/static/media/Q7010.a2a70a82504343e59d2f.jpg",
+    "static/media/G5010.jpg": "/IRIS/static/media/G5010.8e532079d9b7344ce53a.jpg",
+    "static/media/G4010.jpg": "/IRIS/static/media/G4010.5f12a205036d7900dd1c.jpg",
+    "static/media/logoNoir.png": "/IRIS/static/media/logoNoir.391124e0ee8f0b246011.png",
+    "static/media/logoBlanc.png": "/IRIS/static/media/logoBlanc.2ef3cfa422789966831a.png",
+    "static/media/preloader.gif": "/IRIS/static/media/preloader.6a7335105631da55861f.gif",
+    "index.html": "/IRIS/index.html",
+    "static/media/getFetch.cjs": "/IRIS/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
+    "main.3cbf170b.css.map": "/IRIS/static/css/main.3cbf170b.css.map",
+    "main.762c7c64.js.map": "/IRIS/static/js/main.762c7c64.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3cbf170b.css",
+    "static/js/main.762c7c64.js"
+  ]
+}
