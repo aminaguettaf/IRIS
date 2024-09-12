@@ -1,0 +1,19 @@
+.footer{
+    background-color: black;
+    color: #fff;
+}
+.footer a{
+    color: #fff;
+}
+.footer h3, .footer h5{
+    padding: 0;
+    margin: 0;
+}
+.footer h3::before{
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    bottom: -10px;
+}

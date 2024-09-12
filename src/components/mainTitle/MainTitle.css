@@ -1,0 +1,53 @@
+.main-title{
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+    position: relative;
+    margin-bottom: 80px;
+    opacity: 0;
+    transform: translateX(30%);
+    transition: opacity 2s ease, transform 2s ease; 
+}
+.main-title.active{
+    opacity: 1;
+    transform: translateX(0);
+}
+.main-title::before{
+    content: "";
+    position: absolute;
+    background-color: var(--main-color);
+    width: 50px;
+    height: 2px;
+    bottom: -20px;
+    transform: translateX(-50%);
+    left: 50%;
+}
+.main-title::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 5px;
+    height: 2px;
+    bottom: -20px;
+    left: 51%;
+}
+@keyframes moveToCenter{
+    from{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes moveToRight{
+    from{
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}

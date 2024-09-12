@@ -1,0 +1,70 @@
+.side-bar{
+    position: fixed;
+    right: -100%;
+    top: 0;
+    width: 400px;
+    height: 100vh;
+    background-color: var(--second-color);
+    z-index: 3;
+    color: #fff;
+    padding: 40px;
+    overflow-y: scroll;
+    transition: right .3s ease-in-out;
+}
+.side-bar.rtl{
+    position: fixed;
+    left: -100%;
+    right: auto;
+    transition: left .3s ease-in-out;
+}
+.side-bar.rtl.active{
+    left: 0;
+    right: auto;
+}
+.side-bar.active{
+    right: 0;
+}
+.side-bar::-webkit-scrollbar{
+    height: 0px;
+    background: transparent; 
+}
+.side-bar .xmark{
+    font-weight: bolder;
+    color: var(--main-color);
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+.side-bar div{
+    margin-top: 20px;
+}
+.side-bar div h3{
+    font-size: 20px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.side-bar div h3::before{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: var(--main-color);
+    bottom: -15px;
+}
+.side-bar div img{
+    margin-bottom: 10px;
+}
+.side-bar div p, 
+.side-bar div a{
+    font-size: 16px;
+    line-height: 1.6;
+    color: #fff;
+}
+.side-bar .icons i{
+    cursor: pointer;
+}
+@media (max-width:560px) {
+    .side-bar{
+        width: 100%;
+    }
+}

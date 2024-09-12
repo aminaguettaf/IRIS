@@ -1,0 +1,79 @@
+.nav-bar{
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    transition: .5s;
+}
+.nav-bar i{
+    cursor: pointer;
+    font-size: 20px;
+    transition: .5s;
+}
+.nav-bar.active{
+    background-color: black;
+    color: #fff;
+}
+.nav-bar .logo{
+    width: 180px;
+}
+.nav-bar .left-bars, .nav-bar .xmark{
+    display: none;
+}
+.nav-bar ul img{
+    width: 25px;
+    cursor: pointer;
+}
+.nav-bar ul li a{
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+.nav-bar.active ul li a{
+    color: #fff;
+}
+.nav-bar .bars, .nav-bar .left-bars{
+    color: #000;
+}
+.nav-bar.active .bars, .nav-bar.active .left-bars{
+    color: #fff;
+}
+@media (max-width:1029px) {    
+    .nav-bar .logo{
+        text-align: center;
+        width: 120px;
+    }
+    
+    .nav-bar ul{
+        position: absolute;
+        background-color: #fff;
+        width: 100%;
+        top: 63px;
+        left: 0;
+        right: 0;
+        padding: 20px 40px;
+        flex-direction: column;
+        gap: 0 !important;
+        max-height: 0;
+        transition: max-height .3s ease-in-out;
+        overflow: hidden;
+        opacity: 0;
+    }
+    .nav-bar ul.active{
+        max-height: 420px;
+        opacity: 1;
+    } 
+    .nav-bar ul li{
+        width: 100%;
+        padding: 10px 0;
+    }
+    .nav-bar ul li:not(:last-child){
+        border-bottom: 1px solid #ccc;
+    }
+    .nav-bar .left-bars, .nav-bar .xmark{
+        display: block;
+    }
+}

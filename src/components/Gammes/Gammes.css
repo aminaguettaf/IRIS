@@ -1,0 +1,96 @@
+.gammes{
+    background-color: black;  
+    overflow: hidden;
+}
+.gammes .box{
+    background-color: #fff;
+    width: 364px;
+    overflow: hidden;
+    padding: 0;
+    transition: transform 2s ease, opacity 1s ease;
+    opacity: 0;
+    transform-origin: center;
+}
+.gammes .one{
+    transform: rotateX(90deg);
+}
+.gammes .two{
+    transform: rotateY(90deg);
+}
+.gammes .three{
+    transform: rotateY(-90deg);
+}
+.gammes .one.rotate{
+    transform: rotateX(0);
+    opacity: 1;
+}
+.gammes .two.rotate,.gammes .three.rotate{
+    transform: rotateY(0deg);
+    opacity: 1;
+}
+.gammes .box .img{
+    position: relative;
+    width: 100%;
+}
+.gammes .box .img::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: .3s;
+    display: none;
+    z-index: 1;
+}
+.gammes .box:hover .img::before{
+    display: block;
+}
+.gammes .box .img img{
+    width: 100%;
+    transition: .3s;
+}
+.gammes .box:hover img{
+    transform: scale(1.1);
+}
+.gammes .box .img .text{
+    position: absolute;
+    top: -70px;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    transition: top .3s ease-in-out;
+}
+.gammes .box:hover .img .text{
+    top: 50%;
+    transform: translateY(-50%);
+}
+.gammes .box .img .text p{
+    color: #fff;
+    font-size: 16px;
+}
+.gammes .box .img .text a{
+    font-size: 14px;
+    color: var(--main-color);
+    font-weight: bold;
+}
+.gammes .box .title{
+    text-align: center;
+    font-size: 17px;
+    padding: 20px 0 10px;
+    color: var(--second-color);
+}
+@media (max-width:1029px) {
+    .gammes .box{
+        width: 300px;
+    }
+}
+@media (max-width:996px) {
+    .gammes .box{
+        width: 340px;
+    }
+}
+@media (max-width:776px) {
+    .gammes .box{
+        width: 100%;
+    }
+}
