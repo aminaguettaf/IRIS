@@ -9,6 +9,10 @@ animation
 ![Capture d'écran 2](https://github.com/aminaguettaf/IRIS/blob/master/src/assets/capture2.png)
 ![Capture d'écran 3](https://github.com/aminaguettaf/IRIS/blob/master/src/assets/capture3.png)
 ![Capture d'écran 4](https://github.com/aminaguettaf/IRIS/blob/master/src/assets/capture4.png)
+## Lien vers le site
+[Lien vers le site](https://aminaguettaf.github.io/IRIS/)
+
+
 
 
 
